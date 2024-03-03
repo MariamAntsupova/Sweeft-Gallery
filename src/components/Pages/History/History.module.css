@@ -1,0 +1,26 @@
+.historyContainer {
+    max-width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  
+  .historyContainer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .searchedHistory {
+    list-style: none;
+    background-color: blueviolet;
+    color: #dcdcdc;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchedHistory:hover {
+    background-color: #dcdcdc;
+  }
+  
